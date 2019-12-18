@@ -1,0 +1,102 @@
+{
+  "configVersion": 1,
+  "timestamp": 1576662168282,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.8b0f27abd5249ab50422.js",
+        "/main-es5.8b0f27abd5249ab50422.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/polyfills-es5.6696c533341b95a3d617.js",
+        "/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/styles.fa2f3c2219386174c896.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/conditions/atmosphere.svg",
+        "/assets/conditions/clear.svg",
+        "/assets/conditions/clouds.svg",
+        "/assets/conditions/default.svg",
+        "/assets/conditions/drizzle.svg",
+        "/assets/conditions/rain.svg",
+        "/assets/conditions/snow.svg",
+        "/assets/conditions/thunderstorm.svg",
+        "/assets/defaultCity.svg",
+        "/assets/icon.svg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/logo.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/conditions/atmosphere.svg": "3e07eb57b2f7466e0e8290f7c1cddaace50217ba",
+    "/assets/conditions/clear.svg": "ce3881cd7dd432cfbde8e7f4b054dd955fe4afb9",
+    "/assets/conditions/clouds.svg": "e6eeebd2f8423920691b8cca0731d6d072958f4c",
+    "/assets/conditions/default.svg": "ce3881cd7dd432cfbde8e7f4b054dd955fe4afb9",
+    "/assets/conditions/drizzle.svg": "08491558a4412c07e023eaa7a43e6c96e93f9d92",
+    "/assets/conditions/rain.svg": "08491558a4412c07e023eaa7a43e6c96e93f9d92",
+    "/assets/conditions/snow.svg": "08491558a4412c07e023eaa7a43e6c96e93f9d92",
+    "/assets/conditions/thunderstorm.svg": "77088cca5ab20d57611d8f10b3d52042fdebe11c",
+    "/assets/defaultCity.svg": "1086e27e29fdd9709d88a8145453e2c38d08fd75",
+    "/assets/icon.svg": "04ab057decd262a4cc6f0d7216cf123f6bed057c",
+    "/assets/icons/icon-128x128.png": "ee9ccbb4259e30a026a7f21e0df958f4c3fd2beb",
+    "/assets/icons/icon-144x144.png": "0ee866892bfccfcd9c9c166f6d0dc6f713c77603",
+    "/assets/icons/icon-152x152.png": "a160f6e6545deb8274f35f347540f2aa4b7d7db0",
+    "/assets/icons/icon-192x192.png": "8ebe8b3b1c1488edbc39db3fcec406ea49f026b1",
+    "/assets/icons/icon-384x384.png": "36dc7a7d5584c4634d6d61d70cc51ba8fadf0788",
+    "/assets/icons/icon-512x512.png": "96e5c6e55fb690ac73ac907a38197fd262301c2d",
+    "/assets/icons/icon-72x72.png": "154cda7b3edcf3bf16a4467ddcd95a03238d9e00",
+    "/assets/icons/icon-96x96.png": "ba92fb686ef897cad942936062006da30b5142ea",
+    "/assets/logo.svg": "c9456920a5360b1b54edfd63bd5843eb601f0d03",
+    "/favicon.ico": "dc35bd8ae2cc9718db3ccad8a77433506901a6c2",
+    "/index.html": "56dd73e0e188a515d87c30cd01e049b43a27716e",
+    "/main-es2015.8b0f27abd5249ab50422.js": "4bfb64188ee5dfaa3782633d10d9eb985e4848ab",
+    "/main-es5.8b0f27abd5249ab50422.js": "8d330c1c5101e6f78d1bfa0097602a64936b8a26",
+    "/manifest.webmanifest": "8749aafb7941c199e4fa79adf9e592ac0b0b59d9",
+    "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/polyfills-es5.6696c533341b95a3d617.js": "9ceb13edd4b10268f661814868dadb2b284f9745",
+    "/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.fa2f3c2219386174c896.css": "f232fda52f6defae587dde783b8b81933fe8ea5a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

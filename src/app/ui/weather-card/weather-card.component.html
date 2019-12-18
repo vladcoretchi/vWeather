@@ -1,0 +1,38 @@
+<section class="weather__card" (click)="openDetails()"
+	*ngIf="addMode ? !cityAdded && cityName : true"
+	[ngClass]="{'weather__card-dark': this.localStorage.isDarkMode()}">
+	<span class="city-name__text">{{ cityName }}</span>
+	<div class="weather-icon__container" [inlineSVG]="stateIconPath" [cacheSVG]="true" [setSVGAttributes]="{'height': '10rem'}">
+	</div>
+	<div class="temperature-text__container">
+		<span class="temperature-metric__text">{{ temp }}°</span>
+		<span class="weather-condition__text">{{ state }}</span>
+		<span class="weather-condition__description">{{ stateDescription }}</span>
+	</div>
+	<section class="min-max__container">
+		<div class="min__container">
+			<svg class="min-arrow__icon" viewBox="188.5 807 21 21">
+				<path fill="#00ff9b" d="M209.5 817.5h-21L199 828z" data-name="Min Arrow" />
+			</svg>
+			<span class="min-temperature__text">{{ minTemp }}</span>
+			<span class="min__text">Min</span>
+		</div>
+		<div class="max__container">
+			<svg class="max-arrow__icon" viewBox="449.5 820 21 21">
+				<path fill="red" d="M449.5 830.5h21L460 820z" data-name="Max Arrow" />
+			</svg>
+			<span class="max-temperature__text">{{ maxTemp }}</span>
+			<span class="max__text">Max</span>
+		</div>
+	</section>
+	<button class="add-city-btn" [ngClass]="{'add-city-btn-dark': this.localStorage.isDarkMode()}" *ngIf="addMode" (click)="addCity()">ADD CITY +</button>
+</section>
+
+<div *ngIf="cityAdded" class="city-added-note">
+	<h5 class="add-success-text">City has been successfully added!</h5>
+	<svg viewBox="0 0 50 50" height="5rem">
+		<circle cx="25" cy="25" r="25" fill="#25ae88" />
+		<path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+			stroke-width="2" d="M38 15L22 33l-10-8" />
+	</svg>
+</div>

@@ -1,0 +1,4 @@
+<div class="logo__container" routerLink="">
+	<span class="logo__icon" [inlineSVG]="'./assets/icon.svg'" [cacheSVG]="true" [setSVGAttributes]="{'height': '2rem'}"></span>
+	<span class="logo__text" [ngClass]="{'logo__text-dark': this.localStorage.isDarkMode()}">vWeather</span>
+</div>

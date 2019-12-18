@@ -1,0 +1,21 @@
+.logo__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+.logo__icon {
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+.logo__text {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  fill: #2b244d;
+}
+
+.logo__text-dark {
+  fill: #ffffff;
+}

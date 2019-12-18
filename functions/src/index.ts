@@ -1,8 +1,15 @@
-import * as functions from 'firebase-functions';
+/*
+--------------------------------------------------
+--- set environment variables ---
+firebase functions:config:set openweathermap.appid="XXX"
+--------------------------------------------------
+*/
 
-// // Start writing Firebase Functions
-// // https://firebase.google.com/docs/functions/typescript
-//
-// export const helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });
+export { ssr } from "./ssr.f"
+
+export { heartbeat } from "./system/heartbeat.f";
+export { ping } from "./system/ping.f";
+
+// blocked on Spark tier
+// export { weather } from "./weather/weather.f";
+// export { forecast } from "./weather/forecast.f";

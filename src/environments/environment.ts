@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  //apiBaseUrl: "http://localhost:5000/igen-va/us-central1",
+  openWeatherMap: {
+    apiBaseUrl: "https://api.openweathermap.org/data/2.5",
+    appID: ""
+  }
 };
 
 /*
