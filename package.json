@@ -32,7 +32,7 @@
     "@ngui/auto-complete": "^2.0.0",
     "@nguniversal/express-engine": "^8.2.6",
     "@nguniversal/module-map-ngfactory-loader": "v8.2.6",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "ng-inline-svg": "^9.1.0",
     "ngx-webstorage-service": "^4.1.0",
     "rxjs": "~6.4.0",
